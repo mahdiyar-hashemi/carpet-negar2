@@ -1,0 +1,354 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: sans-serif;
+}
+.container{
+
+    background-image: url("carpet6.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+
+}
+ul li {
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+#brand{
+    font-size: 45px;
+    color: #fff;
+    letter-spacing: 1px;
+    cursor: pointer;
+
+
+
+}
+span{
+    color: rgba(75, 110, 140,);
+    letter-spacing: 1px;
+}
+
+ nav ul li {
+     display: inline-block;
+     list-style-type: none;
+     padding: 10px 25px;
+ }
+ nav ul li a{
+     text-decoration: none;
+     color: #fff;
+     font-weight: bold;
+     text-transform: capitalize;
+     transition: all 0.5s step-end;
+
+ }
+ nav ul li a:hover{
+     color: beige;
+
+
+ }
+ #btn1{
+     background-color: beige;
+     color: darkcyan;
+     font-size: 14px;
+     padding: 10px 25px;
+     border: 2px solid transparent;
+     border-radius: 30px ;
+     font-weight: bold;
+     transition:all  0.4s ;
+
+ }
+ #btn1:hover{
+     transform: scale(1.2);
+ }
+ 
+ .contect{
+     position: absolute;
+     top: 40%;
+     left: 8%;
+     transform: translateY(-50%);
+     bottom: 300px;
+     left: 120px;
+ }
+#h1 {
+    color: aliceblue;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    margin: 20px;
+
+}
+#h2{
+    padding: 2%;
+    color: rgb(196, 85, 29);
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    width: 500px;
+}
+#h4{
+    width: 350px;
+    color: rgb(227,224, 219);
+    text-transform: capitalize;
+    line-height: 28px;
+}
+#mail{
+    border: 2px solid transparent;
+    border-radius: 30px;
+    
+
+}
+form{
+    padding-top: 50px;
+}
+.news form {
+    width: 380px;
+    position: relative;
+    max-width: 100%;
+
+}
+.news form input:first-child{
+    width: 380px;
+    position: relative;
+    max-width: 100%;
+    height: 30px;
+    border: 2px solid rgb(0, 74, 137);
+    
+}
+.news form input:last-child{
+    width: 120px;
+    position: relative;
+    max-width: 100%;
+    height: 30px;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    transition:  0.5s transparent;
+    background-color: rgb(0, 74, 137);
+    top: -31.5px;
+    left: 258px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+
+}
+.news form input:last-child:hover{
+    border: 2px solid rgb(8, 13, 42);
+    transform: scale(1.1);
+}
+section{
+    height: 100vh;
+    width: 100%;
+    background-image: url("carpet6.jpg");
+    background-position: center;
+    background-size: cover;
+
+}
+
+section div div div h1{
+    font-weight: bold;
+    color: #fff;
+    padding: 10%;
+    font-size: 50px;
+    letter-spacing: 1px;
+
+}
+.content2{
+    padding-top: 50px;
+    padding-left: 8%;
+    padding-right: 20%;
+
+}
+.negar{
+    color: rgb(50, 84, 114);
+    text-transform: capitalize;
+    transition: all 0.5s linear;
+
+}
+#negar:hover{
+    transform: scale(1.2);
+}
+section div div div h2{
+    padding: 2%;
+    color: rgb(196, 85, 29);
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+section div div div h4{
+    width: 350px;
+    color: rgb(227,224, 219);
+    text-transform: capitalize;
+    line-height: 28px;
+
+}
+.section3{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(8, 13, 42);
+}
+.title{
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    padding: 0.7%;
+    color: #fff;
+    font-size: 52px;
+}
+.box{
+    display:flex;
+    justify-content: space-between;
+    padding: 2%;
+    min-height: 400px;
+}
+.card{
+    background-color: rgb(0, 74, 137);
+    border-radius: 10px;
+    padding: 2%;
+    margin: 3%;
+    text-align: center;
+}
+#h5{
+    text-align: center;
+    font-size: 25px;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    padding: 10px;
+}
+#i{
+    font-size: 40px;
+    padding: 5px;
+    display: block;
+    
+}
+#i1{
+    font-size: 40px;
+    padding: 5px;
+display: block;
+}
+#i2{
+    font-size: 40px;
+    padding: 5px;
+display: block;
+}
+p a{
+    padding-top: 10px;
+}
+.button{
+    background-color: rgb(8, 13, 42);
+    font-size: 14px;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    padding: 10px 25px;
+    margin: 10px;
+    transition: all 0.4s ;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 10px;
+}
+.button:hover{
+    border: 2px solid #fff;
+    background-color:rgb(0, 74, 137) ;
+    transform: scale(2);
+    cursor: pointer;
+}
+.per{
+    line-height: 28px;
+    padding: 10px;
+    margin: 3px;
+   text-align: center;
+   
+}
+.cantact-me{
+    width: 100%;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color:rgb(0, 74, 137) ;
+}
+.cantact-me p{
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    padding: 3%;
+
+}
+.cantact-me a{
+    background-color: rgb(8, 13, 42);
+    font-size: 14px;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    padding: 10px 25px;
+    margin: 10px;
+    transition: all 0.4s ;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 10px;
+}
+.cantact-me a:hover{
+    border: 2px solid #fff;
+    background-color: transparent;
+}
+footer{
+    width: 100%;
+    height: 357px;
+    background-color: #191919;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+footer h2{
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    padding: 10px;
+    padding-top: 60px;
+}
+footer p{
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    text-align: center;
+    width: 500px;
+    padding-bottom: 50px;
+}
+.social{
+    padding-top: 60px;
+    align-items: center;
+    display: flex;
+   
+}
+footer h4{
+    padding-top: 5px;
+    color: #fff;
+    letter-spacing: 0.5px;
+    text-align: center;
+    font-size: 15px;
+    line-height: 30px;
+}
+.social a{
+   
+    padding-left: 15px;
+    font-size: 38px;
+    color:rgb(0, 74, 137) ;
+    transition: all 0.3s ease-in-out;
+}
+.social a:hover{
+    transform: scale(1.3);
+}
+
+
